@@ -1,16 +1,232 @@
-div {
-   width: 90%;
+html {
+   box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+   height: 100%;
+   margin: 0;
+   padding: 0;
+   font-family:  'Poppins', Arial sans-serif ;
+}
+
+.wrapper {
+width: 1140px;
+margin: 0 auto;
+padding: 0 15px;
+}
+
+.header {
+   width: 100%;
+   background-color: #c5c5c9; 
+}
+
+
+
+.menu-list {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+
+}
+
+.menu-list li{
+   font-size: 18px ;
+   margin: 20px 0;
+}
+
+
+.left-side {
+   width: 35%;
+   color: #c5c5c9;
+   background-color: #345383;
+}
+
+
+.profile-photo {
+   width: 60%;
    margin: 0 auto;
-   margin-top: 50px;
-   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.profile-photo img{
+ margin-left: 40px;
+ margin-top: 40px;
+}
+
+
+.left-side a {
+   font-size: 16px;
+   color: #c5c5c9;
+   text-decoration: none;
+}
+
+.contacts, .languages {
+   margin-top: 60px;
+}
+
+.contact-title, .skills-title, .lang-title {
+   font-size: 24px;
+   color: beige;
+   line-height: 30px;
+   letter-spacing: 0.5px;
+   text-align: center; 
+
+}
+
+.underline {
+   width: 100px;
+   margin: 0 auto;
+   border: 0.5px solid #c5c5c9;
+   margin-top: -16px;
+   margin-bottom: 30px;
+}
+
+
+
+.contact-list {
+   list-style: none;
+}
+
+.contact-item  {
+   margin-bottom: 10px;
+}
+
+.contact-icon {
+  position: relative;
+  top: 7px;
+  left:0;
+  margin-right: 2px;
+}
+
+.skills {
+   margin-top: 60px;
+}
+
+.skills-list, .lang-list  {
+   margin-left: 20px;
+}
+
+.skills-item, .lang-item {
+   font-size: 16px;
+   color: #c5c5c9;
+   margin-bottom: 10px;
+}
+
+.container {
+   display: flex;
+}
+
+.right-side {
+   width: 65%;
+  
+}
+
+.section-title {
+   margin:70px 30px 60px 30px;
+   color: #345383;
+}
+
+h1 {
+   font-size: 36px;
+}
+
+.underline-title {
+   width: 100px;
+   border: 0.5px solid #6980a7;
+   margin-top: -25px;
+   margin-bottom: 30px;
+}
+
+h3 {
+   font-size: 18px;
+   font-weight: 700; 
+   margin-top: -15px;
+}
+
+
+
+.about-section {
+   margin: 78px 30px;
+}
+
+.about-title, .edu-title, .exp-title, .code-title, .project-title {
+   font-size: 24px;
+   color: #6980a7;
+  
+}
+.about-txt {
+   font-size: 16px;
+   color:#312b3d;
+   margin-top: -15px;
+}
+
+ .edu-section {
+   margin: -25px 30px;
+}
+.edu-list {
+   margin-top: -15px;
+}
+
+.edu-list-item {
+   font-size: 16px;
+   color:#312b3d;
+   margin-bottom: 5px;
 }
 
 p {
-   font-size: 18px;;
+   font-size: 16px;
+   color:#312b3d;
+   margin-top: -15px;
 }
- a{
-    color:blue;
- }
- span {
-    font-weight: bold;
- }
+
+.exp-section {
+   margin: 70px 30px;
+}
+
+.code-section {
+   margin: -32px 30px;
+}
+
+.project-section {
+   margin: 70px 30px;
+}
+
+.project-section a{
+   color:#312b3d;
+}
+
+.footer {
+   width: 100%;
+   background-color: #c5c5c9;
+}
+
+.footer-inner {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.logo {
+   width: 100px;
+   margin: 5px 0;
+}
+
+.git-icon {
+  width: 50px;
+}
+
+
+.footer-txt {
+   margin-top: 15px;
+   font-weight: 700;
+}
