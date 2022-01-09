@@ -44,6 +44,11 @@ align-items: center;
    margin: 20px 0;
 }
 
+.menu-link {
+   text-decoration: none;
+   color: black;
+}
+
 
 .left-side {
    width: 35%;
