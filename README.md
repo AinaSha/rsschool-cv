@@ -3,5 +3,5 @@
 ##  CV#1. Markdown & Git
 https://ainasha.github.io/rsschool-cv/cv
 
-## CV#3. CV. Cross-Check
+## CV#2. HTML, CSS & Git Basics
 https://ainasha.github.io/rsschool-cv/
