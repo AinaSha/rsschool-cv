@@ -24,7 +24,7 @@ I received humanistic education  and work in a completely different field, but I
 * Git/GitHub
 * Figma
 * Editor: VS code
-
+* Docker 
 
 ## Work experience:
 
@@ -40,8 +40,8 @@ I received humanistic education  and work in a completely different field, but I
 * Jyldyz Academy Course  
     + «Frontend Developer» (in progress) 
 * RS Schools Course 
-    + «JavaScript/Front-end. Stage 0» (in progress)
-
+    + «JavaScript/Front-end. Stage 0» (completed)
+    + «JavaScript/Front-end. Stage 1» (in progress)
 
 ## Code examples
 
